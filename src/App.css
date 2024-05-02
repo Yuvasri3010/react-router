@@ -1,0 +1,26 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .box {
+    width: 250px;
+    height: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    background: linear-gradient(to right, #16d2a2, #00d4ff); 
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: whitesmoke;
+  }
+  h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#16d2a2, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
